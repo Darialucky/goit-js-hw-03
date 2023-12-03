@@ -1,11 +1,11 @@
 function filterArray(numbers, value) {
-  let numbersMas = [];
+  let filterArray = [];
   for (let i = 0; i < numbers.length; i++) {
-    if (numbers[i] >= value) {
-      numbersMas.push(numbers[i]);
+    if (numbers[i] > value) {
+      filterArray.push(numbers[i]);
     }
   }
-  return numbersMas;
+  return filterArray;
 }
 
 
